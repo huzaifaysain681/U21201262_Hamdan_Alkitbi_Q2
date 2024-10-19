@@ -1,0 +1,75 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:id="@+id/main">
+
+    <TextView
+        android:text="Submit Your Book Review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#3F51B5"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#3F51B5"
+        android:hint="Your Name"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/bookTitleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#3F51B5"
+        android:hint="Book Title"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/reviewInput"
+        android:hint="Your Review"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:backgroundTint="#3F51B5"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp" />
+
+    <CheckBox
+        android:id="@+id/requestResponseCheckbox"
+        android:text="Request a reviewer response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3F51B5"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/submitReviewButton"
+        android:text="Submit Review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/feedbackTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF5722"
+        android:textSize="18sp" />
+
+</LinearLayout>
